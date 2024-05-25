@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body {
+    background-color: #101311;
+
+}
+.navbar {
+    z-index: 6;
+    background-color: #101311;
+    position: fixed;
+    width: 100%;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo img {
+    width: 150px;
+    cursor: pointer;
+}
+.list-navbar ul {
+    display: flex;
+    justify-content: space-evenly;
+    font-weight: 600;
+    font-size: 0.8rem;
+    list-style: none;
+}
+.list-navbar a {
+    padding: 8px 30px;
+    color: #FAFAFA;
+    border-radius: 8%;
+    text-decoration: none;
+    transition: all ease-in-out 0.3s;
+}
+.list-navbar a:hover {
+    background-color: #27272A;
+}
+
+
+.ten-10 {
+    padding-top: 100px;
+    padding-bottom: 20px;
+    text-align: center;
+    width: 100%;
+}
+.head10 {
+    font-family: "Urbanist", sans-serif;
+    font-size: 70px;
+    font-weight: 800;
+    color: #FAFAFA;
+}
+.head10 span {
+    font-family: "Urbanist", sans-serif;
+    font-weight: 800;
+    color: transparent;
+    background-clip: text;
+    background-image: linear-gradient(to right, green, yellow);
+}
+.head103 {
+    padding-top: 20px;
+    color: #A1A1AA;
+    font-weight: 400;
+    font-size: 1.25rem;
+}
+
+/* eleven-11 */
+.eleven-11 {
+    padding: 50px 120px;
+    padding-bottom: 9rem;
+}
+.accordion {
+    padding: 20px;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 5px;
+    background-color: #101311;
+    color: #ffff;
+    cursor: pointer;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    transition: 0.4s;
+}
+.active,
+.accordion:hover {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    transform: scale(1.01);
+    background-image: linear-gradient(to right, #313314, #152E1B, #2A3014);
+    box-shadow: 0 0 8px 0px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.panel {
+    line-height: 180%;
+    font-size: 18px;
+    padding: 20px 20px;
+    display: none;
+    color: #A1A1AA;
+    max-width: 100%;
+    background-image: linear-gradient(to right, #313314, #152E1B, #2A3014);
+    overflow: hidden;
+}
+
+.footer {
+    bottom: 0;
+    background-color: #0F0F0F;
+}
+.list-f {
+    padding: 2rem 0 0 2rem;
+    color: #ffff;
+    list-style: none;
+    line-height: 200%;
+}
+#spt {
+    font-size: 20px;
+    font-weight: 600;
+}
+.list-f a {
+    text-decoration: none;
+    color: #A1A1AA;
+    font-size: 20px;
+}
+.flexs {
+    padding-bottom: 20px;
+    padding-top: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+.flexs h3 {
+    color: #A1A1AA;
+    font-weight: 400;
+    font-size: 16px;
+}
+.list-f1 {
+    display: flex;
+    list-style: none;
+    column-gap: 10px;
+}
+.list-f1 img {
+    margin-top: 5px;
+    width: 30px;
+    height: 30px;
+}
+.list-f1 li {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    transition: all ease-in-out 0.3s;
+}
+.list-f1 li:hover {
+    transform: scale(1.05);
+    background-color: #A1A1AA;
+    border-radius: 50%;
+}

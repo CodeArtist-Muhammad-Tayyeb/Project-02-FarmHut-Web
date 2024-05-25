@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+        <link rel="stylesheet" href="/FAQ.css">
+    <title>FAQ</title>
+</head>
+<body>
+    <div class="navbar">
+        <div class="logo">
+            <a href="/index.html"><img src="/Assets/FarmHut_logo-removebg.png" alt=""></a>
+            
+        </div>
+        <div class="list-navbar">
+            <ul>
+                <li><a href="/feature.html">Features</a></li>
+                <li><a href="/pricing.html">Pricing</a></li>
+                <li><a href="#">FAQ</a></li>
+                <li><a href="/blog.html">Blog</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="ten-10" id="faq">
+        <h1 class="head10">Frequently Asked<span> Questions</span></h1>
+        <h3 class="head103">Find the answers to the most common questions about our product. <br> Feel free to
+            <strong>email us</strong> if you still couldn't find what you were looking for.
+        </h3>
+
+    </div>
+
+    <div class="eleven-11">
+        <button class="accordion">What is the Farmhut Africa chatbot?</button>
+        <div class="panel">
+            <p>The Farmhut Africa chatbot is a WhatsApp tool designed to assist small-scale farmers. <br> It
+                utilizes AI to offer a range of farming solutions and resources.</p>
+        </div>
+
+        <button class="accordion">How does the Farmhut Africa chatbot work?</button>
+        <div class="panel">
+            <p>Interact with the Farmhut Africa chatbot by sending messages on WhatsApp. <br> It understands your farming
+                queries and provides tailored answers and solutions.</p>
+        </div>
+
+        <button class="accordion">How can I start using the Farmhut Africa chatbot?</button>
+        <div class="panel">
+            <p>To start, save Farmhut Africa's number +44 7903 534965 on your phone and send a 'Hi' message. <br> The
+                chatbot guides you through the options and how to use them.</p>
+        </div>
+
+        <button class="accordion">What are the features of the Farmhut Africa chatbot?</button>
+        <div class="panel">
+            <p>Farmhut Africa's chatbot offers extensive features such as plant disease diagnosis, logistics
+                booking, <br> market trends, direct marketplace selling, and more, all aimed at enhancing farm
+                productivity.</p>
+        </div>
+
+        <button class="accordion">What financial solutions does Farmhut Africa offer?</button>
+        <div class="panel">
+            <p>Farmhut Africa provides diverse and adaptable financial solutions, including tailored credit scoring,
+                lending options, <br> efficient financial management tools, and accessible financial support. <br>These are
+                designed to cater to the unique needs of modern farmers.</p>
+        </div>
+
+        <button class="accordion">Can Farmhut Africa assist with managing my farm's finances?</button>
+        <div class="panel">
+            <p>Yes, Farmhut Africa offers tools for efficient financial management, enhancing the financial health
+                and growth of your farm.<br> This includes tools for budgeting, tracking expenses, and financial
+                planning.</p>
+        </div>
+
+        <button class="accordion">Does Farmhut Africa offer plant disease diagnosis?</button>
+        <div class="panel">
+            <p>Farmhut Africa features an advanced plant disease diagnosis tool. By capturing an image of your crop, <br>
+                the system can diagnose the disease and recommend treatment using AI and machine learning.</p>
+        </div>
+
+        <button class="accordion">What marketplace services does Farmhut Africa provide?</button>
+        <div class="panel">
+            <p>Farmhut Africa's marketplace allows farmers to sell their agricultural produce directly to buyers and
+                purchase inputs and other essential products.<br> This integrated marketplace facilitates efficient
+                transactions.</p>
+        </div>
+
+        <button class="accordion">How does Farmhut Africa support logistics and transportation?</button>
+        <div class="panel">
+            <p>Farmhut Africa offers logistics booking services to streamline the transportation  <br>of produce,
+                ensuring efficient and timely delivery to markets or buyers.</p>
+        </div>
+
+        <button class="accordion">Is there support for weather and climate forecasting on Farmhut Africa?</button>
+        <div class="panel">
+            <p>Yes, Farmhut Africa provides accurate climate and weather forecasting, <br>helping farmers make
+                better-informed decisions for crop management.
+            </p>
+        </div>
+    </div>
+
+    <div class="footer">
+        <ul class="list-f">
+            <li id="spt">Support</li>
+            <li><a href="#">FAQ</a></li>
+            <li><a href="/blog.html">Blog</a></li>
+        </ul>
+        <div class="flexs">
+            <h3>All rights reserved © 2024 Farmhut Africa</h3>
+            <ul class="list-f1">
+                <li><a href="#"><img src="/Assets/icons8-twitter-30.png" alt=""></a></li>
+                <li><a href="#"><img src="/Assets/icons8-f-30.png" alt=""></a></li>
+                <li><a href="#"><img src="/Assets/icons8-moon-30.png" alt=""></a></li>
+            </ul>
+        </div>
+    </div>
+
+    <script>
+        var acc = document.getElementsByClassName("accordion");
+        var i;
+
+        for (i = 0; i < acc.length; i++) {
+            acc[i].addEventListener("click", function () {
+                this.classList.toggle("active");
+                var panel = this.nextElementSibling;
+                if (panel.style.display === "block") {
+                    panel.style.display = "none";
+                } else {
+                    panel.style.display = "block";
+                }
+            });
+        }
+    </script>
+
+</body>
+</html>
